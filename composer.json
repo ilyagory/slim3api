@@ -1,0 +1,14 @@
+{
+  "name": "wc/dls",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "slim/slim": "3.*",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "swaggest/json-schema": "^0.12.39"
+  }
+}

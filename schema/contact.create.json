@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "source_id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/contact"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "source_id",
+    "items"
+  ],
+  "$defs": {
+    "contact": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "phone": {
+          "type": [
+            "string",
+            "integer"
+          ]
+        }
+      }
+    }
+  }
+}

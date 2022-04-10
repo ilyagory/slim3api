@@ -1,0 +1,15 @@
+{
+  "source_id": 2,
+  "items": [
+    {
+      "name": "Анна",
+      "phone": 90012344531,
+      "email": "mail1@gmail.com"
+    },
+    {
+      "name": "Иван",
+      "phone": "+79001234123",
+      "email": "mail2@gmail.com"
+    }
+  ]
+}
